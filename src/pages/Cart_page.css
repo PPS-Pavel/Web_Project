@@ -1,0 +1,152 @@
+.cart_clear {
+    text-align: center;
+}
+
+.cart-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.cart-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+.cart-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.cart-item p {
+    margin: 5px 0;
+}
+
+.cart-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-buttons button:hover {
+    opacity: 0.8;
+}
+
+.quantity-controls button {
+    background-color: #ffc107;
+}
+
+.quantity-controls span {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.remove-button {
+    background-color: #ffc107;
+}
+
+.remove-button:hover {
+    background-color: #ffc107;
+}
+
+.cart-total {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.clear-cart {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clear-cart:hover {
+    background-color: #ffc107;
+}
+
+.order-summary {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.order-summary h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.order-summary p {
+    margin: 10px 0;
+}
+
+.order-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-summary ul li {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-container ul {
+        padding: 0;
+
+    }
+  
+  }
+
+@media screen and (max-width: 400px) {
+    main{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .cart-container{
+        padding: 10px;
+
+    }
+    .quantity-controls {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+    .cart-container ul {
+        padding: 0;
+
+    }
+  
+  }

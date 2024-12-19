@@ -1,0 +1,46 @@
+.about-container {
+  text-align: center;
+  padding: 0px 20px;
+  background-color: #f4f4f4;
+}
+
+.about-container h2 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.about-container p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #2e2d2d;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1200px) {
+  .pizza-card {
+    width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .pizza-card {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pizza-card {
+    width: 240px;
+  }
+
+  .about-container h2 {
+    font-size: 20px;
+  }
+
+  .about-container p {
+    font-size: 16px;
+  }
+}
